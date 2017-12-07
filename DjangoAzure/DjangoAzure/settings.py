@@ -26,8 +26,8 @@ SECRET_KEY = '9b3a6f6c-9850-41b9-8830-a672f5665f97'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['hirakawa71djangoazure.azurewebsites.net']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hirakawa71djangoazure.azurewebsites.net']
+#ALLOWED_HOSTS = []
 
 
 # Application definition

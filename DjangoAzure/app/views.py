@@ -26,8 +26,8 @@ def contact(request):
         request,
         'app/contact.html',
         {
-            'title':'Contact',
-            'message':'Your contact page.',
+            'title':'お問い合わせ',
+            'message':'お問い合わせ',
             'year':datetime.now().year,
         }
     )
@@ -39,8 +39,8 @@ def about(request):
         request,
         'app/about.html',
         {
-            'title':'About',
-            'message':'Your application description page.',
+            'title':'免責事項',
+            'message':'本サイトで公表するプログラム及び資料等により、使用者が直接間接に蒙ったいかなる損害に対しても、何らの保証責任及び賠償責任を負うものではありません。 使用者の責任のもと、プログラムの使用、結果の利用を行ってください。',
             'year':datetime.now().year,
         }
     )
