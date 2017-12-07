@@ -24,9 +24,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9b3a6f6c-9850-41b9-8830-a672f5665f97'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['hirakawa71djangoazure.azurewebsites.net']
+#ALLOWED_HOSTS = ['hirakawa71djangoazure.azurewebsites.net']
+ALLOWED_HOSTS = []
 
 
 # Application definition

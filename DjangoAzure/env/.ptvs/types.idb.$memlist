@@ -12,13 +12,13 @@ BuiltinFunctionType
 CodeType
 new_class
 FrameType
+WrapperDescriptorType
 SimpleNamespace
 _collections_abc
 MethodWrapperType
 MemberDescriptorType
 _ag
 MethodType
-SlotWrapperType
 coroutine
 _f
 tb

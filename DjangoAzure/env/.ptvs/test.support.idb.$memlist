@@ -107,6 +107,7 @@ no_tracing
 can_symlink
 check_no_resource_warning
 collections
+_match_test
 load_package_tests
 CleanImport
 TESTFN
@@ -137,6 +138,7 @@ urllib
 EnvironmentVarGuard
 _header
 run_with_locale
+disable_faulthandler
 resource
 gc
 PGO

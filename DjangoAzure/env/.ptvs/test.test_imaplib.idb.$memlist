@@ -4,7 +4,7 @@ run_with_locale
 datetime
 ThreadedNetworkedTestsSSL
 ThreadedNetworkedTests
-mock
+imaplib
 inspect
 RemoteIMAP_SSLTest
 run_with_tz
@@ -20,7 +20,7 @@ ssl
 CAFILE
 SimpleIMAPHandler
 verbose
-imaplib
+mock
 RemoteIMAPTest
 support
 NewIMAPSSLTests
@@ -30,5 +30,6 @@ os
 NewIMAPTests
 socketserver
 timedelta
+cpython_only
 CERTFILE
 TestImaplib

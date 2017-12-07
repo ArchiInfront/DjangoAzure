@@ -34,7 +34,6 @@ cs_setz
 errcheck
 io
 get_extring
-POINTER
 geos_equalsexact
 create_cs
 geos_unary_union

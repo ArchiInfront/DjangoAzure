@@ -22,6 +22,7 @@ WindowsPathTest
 socket
 with_symlinks
 PurePathTest
+mock
 support
 join
 os

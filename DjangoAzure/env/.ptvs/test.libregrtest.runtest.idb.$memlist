@@ -2,9 +2,10 @@ sys
 NOTTESTS
 time
 importlib
-cleanup_test_droppings
+runtest_inner
+post_test_cleanup
 os
-runtest
+get_abs_module
 saved_test_environment
 CHILD_ERROR
 faulthandler
@@ -17,8 +18,9 @@ findtestdir
 format_test_result
 RESOURCE_DENIED
 traceback
+cleanup_test_droppings
 INTERRUPTED
-runtest_inner
+runtest
 _FORMAT_TEST_RESULT
 findtests
 PROGRESS_MIN_TIME
